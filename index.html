@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>A Message for Anjali ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="folder-gate">
+        <div class="folder-wrapper" onclick="openFolder()">
+            <div class="folder-icon">📂</div>
+            <p>Private Folder: For Anjali's Eyes Only</p>
+            <p class="tap-hint">(Tap to open)</p>
+        </div>
+    </div>
+
+    <div id="intro-container" class="hidden">
+        <h1 class="intro-text" id="text1">Hey Anjali...</h1>
+        <h1 class="intro-text" id="text2">I've been thinking about how lucky I am...</h1>
+        <h1 class="intro-text" id="text3">And I realized I love you more than words can say. ❤️</h1>
+    </div>
+
+    <div id="main-content" class="hidden">
+        <div id="hearts-container"></div>
+        <div class="card">
+            <div class="envelope">💌</div>
+            <h1 class="title">Anny...</h1>
+            <p class="question">Will you be my Valentine?</p>
+            
+            <div class="button-group">
+                <button id="yesBtn">YES! 💖</button>
+                <button id="noBtn">NO 😢</button>
+            </div>
+
+            <div id="success-msg" class="hidden">
+                <div class="sparkles">✨🌸✨</div>
+                <h2>I'm the luckiest person in the world! ❤️</h2>
+                <p>Can't wait to spend the day with you.</p>
+                <p class="signature">- Forever yours, Uday</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
